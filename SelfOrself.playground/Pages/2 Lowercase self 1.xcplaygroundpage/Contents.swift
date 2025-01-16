@@ -8,15 +8,10 @@
 import Foundation
 
 code(for: "Class example") {
-    class Person {
-        var name = ""
-    }
+    
 }
 
 code(for: "Struct Example") {
-    struct Person {
-        var name: String
-    }
     
 }
 
