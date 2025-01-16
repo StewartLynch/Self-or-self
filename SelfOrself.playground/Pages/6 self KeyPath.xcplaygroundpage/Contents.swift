@@ -8,9 +8,11 @@ import SwiftUI
 import PlaygroundSupport
 
 struct ContentView: View {
-    
+    let names = ["Alice", "Bob", "Charlie", "Diana"]
     var body: some View {
-       Text("Hello world")
+        List(names, id: \.self) { name in
+            Text(name)
+        }
     }
 }
 
