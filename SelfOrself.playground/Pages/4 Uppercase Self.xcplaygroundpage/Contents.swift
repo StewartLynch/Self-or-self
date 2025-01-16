@@ -5,8 +5,11 @@
 */
 import Foundation
 
-code(for: "Protocol Example") {
 
+code(for: "Protocol Example") {
+    struct Human {
+        var name: String
+    }
 }
 
 
